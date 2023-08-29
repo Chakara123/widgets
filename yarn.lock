@@ -3044,7 +3044,7 @@ __metadata:
     sass: ^1.66.1
     sass-loader: ^13.3.2
     semver: ^7.5.4
-    storybook-i18n: ^1.1.5
+    storybook-i18n: ^2.0.13
     typescript: ^5.2.2
     webpack-merge: ^5.9.0
   languageName: unknown
@@ -19645,15 +19645,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-i18n@npm:^1.1.5":
-  version: 1.1.5
-  resolution: "storybook-i18n@npm:1.1.5"
+"storybook-i18n@npm:^2.0.13":
+  version: 2.0.13
+  resolution: "storybook-i18n@npm:2.0.13"
   peerDependencies:
-    "@storybook/addons": ">=6.5.0"
-    "@storybook/api": ">=6.5.0"
-    "@storybook/components": ">=6.5.0"
-    "@storybook/core-events": ">=6.5.0"
-    "@storybook/theming": ">=6.5.0"
+    "@storybook/components": ^7.0.0
+    "@storybook/manager-api": ^7.0.0
+    "@storybook/preview-api": ^7.0.0
+    "@storybook/types": ^7.0.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
@@ -19661,7 +19660,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: bf1d0b5867fd1448b258c67e0c334d8c3a30146a8a7c485b7214b3148009de1a7214486bc36f8aca0d9a6f1a6a27f91e27b0f2c21d6cffb7da7f861f816cb39c
+  checksum: 024a6d2bf1c3c416e55c7242abc8caa5ecea7f03e59d581b88a73d603831a05ae68888ffb712f37fedd15dc50274275bbcf0c692824e0f491ceb0b2ac348a3d7
   languageName: node
   linkType: hard
 
